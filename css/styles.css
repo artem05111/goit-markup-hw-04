@@ -118,6 +118,8 @@ body {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
@@ -225,11 +227,10 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("/images/people-office.jpg");
+    url("../images/people-office.jpg");
   max-width: 1440px;
   margin: 0 auto;
   background-size: cover;
-  /* background: var(--secondary-color-theme-page); */
 }
 
 .order-btn {
